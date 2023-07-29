@@ -1,0 +1,120 @@
+/* Universal Styling */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* code for styling body */
+body{
+  background-color: #9c9d97;
+}
+
+/* Styling used for header*/
+
+h1 {
+  font-family: 'Playball', cursive;
+  text-align: center;
+  font-size: 65px;
+  color: #f1f1f1;
+}
+
+header{
+  background-color: #1d1c21;
+  padding-top: 40px;
+  padding-bottom: 55px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+header a{
+  position: absolute;
+  right: 20px;
+  color: #f1f1f1;
+}
+
+/* Styling used for nav*/
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48,
+}
+
+nav{
+  display: flex;
+  text-align:left;
+  justify-content: space-evenly;
+  flex-flow: row nowrap;
+  background-color: #1d1c21;
+  margin-bottom: 25px;
+  display: none;
+}
+
+nav a{
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+nav a:hover{
+  background-color: #f1f1f1;
+  color: #1d1c21;
+}
+
+/* Styling used for input and button*/
+
+#input{
+  width: 100%;
+}
+
+.AddToList,
+.AddBtn {
+  margin: 0 auto;
+  display: block;
+}
+
+.AddToList{
+  width: 600px;
+  height: 25px;
+  border-radius: 10px;
+  margin-bottom: 11px;
+  background-color: #f1f1f1;
+}
+
+.AddBtn{
+  border-radius: 7px;
+  width: 90px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 55px;
+}
+
+/* Styling for the shopping list*/
+
+#shoppingList{
+  margin: auto;
+  width: 80%;
+  height: 530px;
+  border: 3px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(67, 69, 70, 0.819);
+}
+
+#list,
+#total {
+  margin: 0 auto;
+  display: block;
+}
+
+
+/* Styling for footer*/
+
+#footer {
+  text-align: center;
+  background-color: #1d1c21;
+  color: #f1f1f1;
+  margin-top: 40px;
+  padding-top: 15px ;
+  padding-bottom: 40px;
+}
